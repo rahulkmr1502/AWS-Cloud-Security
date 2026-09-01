@@ -5,3 +5,8 @@
 
 ## 2. Fundamental Architectural Patterns
 ### Multi-Tier Architecture
+Divides application components by functional layer to implement defense-in-depth security:
+
+- **Presentation Tier:** Public-facing interface handling client requests (e.g., web servers).
+- **Application (Logic) Tier:** Processes business logic and mediates communication between layers.
+- **Data Tier:** Houses databases and storage systems behind internal boundaries.
