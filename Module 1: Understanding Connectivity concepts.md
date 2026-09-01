@@ -17,7 +17,7 @@ flowchart LR
             APP[⚙️ Application Services]
         end
 
-        subgraph DataVPC ["Data VPC"]
+subgraph DataVPC ["Data VPC"]
             DATA[(🗄️ Database & Storage)]
         end
 
