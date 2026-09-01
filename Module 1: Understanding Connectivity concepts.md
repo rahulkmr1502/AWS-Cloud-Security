@@ -10,11 +10,10 @@ Divides application components by functional layer to implement defense-in-depth
 - **Presentation Tier:** Public-facing interface handling client requests (e.g., web servers).
 - **Application (Logic) Tier:** Processes business logic and mediates communication between layers.
 - **Data Tier:** Houses databases and storage systems behind internal boundaries.
-
-/
-+---------------------------------------------------+
-|         Presentation Tier (Web / UI)              |
-+---------------------------------------------------+
+<br>
++---------------------------------------------------+<br>
+|         Presentation Tier (Web / UI)              |<br>
++---------------------------------------------------+<br>
                           │
                           ▼
 +---------------------------------------------------+
